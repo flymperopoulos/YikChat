@@ -1,0 +1,50 @@
+.container {
+        max-width: 700px;
+    }
+
+#comments-container {
+    border: 1px solid #d0d0d0;
+    height: 400px;
+    overflow-y: scroll;
+}
+ 
+.comment-container {
+    padding: 10px;
+    margin:6px;
+    background: #f5f5f5;
+    font-size: 13px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+ 
+.comment-container .label {
+    margin-right: 20px;
+}
+ 
+.comment-container:last-of-type {
+    border-bottom: none;
+}
+
+h1 {
+    color:#ffffff;
+}
+
+.comment-container:hover{
+    color: #ffffff;
+    cursor: pointer;
+    background: rgba(255, 0, 0, .5)
+};
+
+#refresh-btn{
+    position: right;
+}
+
+
+.logbutton-position {
+    margin:0 auto; /* this will center  it */
+    position:center;
+    margin-left: auto;
+    margin-right: auto;
+
+}

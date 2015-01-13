@@ -1,0 +1,9 @@
+{
+  "firebase": "yikchat",
+  "public": "/Users/filipposlymperopoulos/repos/YikChat",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
